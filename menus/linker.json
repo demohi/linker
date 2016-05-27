@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "Toggle linker",
-        "command": "linker:toggle"
+        "command": "linker:open"
       }
     ]
   },
@@ -12,11 +12,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "linker",
+          "label": "Linker",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "linker:toggle"
+              "label": "open",
+              "command": "linker:open"
             }
           ]
         }
